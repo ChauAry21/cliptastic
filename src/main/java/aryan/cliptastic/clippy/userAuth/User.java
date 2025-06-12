@@ -11,7 +11,6 @@ public class User {
     private LocalDateTime createdAt;
     private LocalDateTime lastLogin;
 
-    // Constructors
     public User() {}
 
     public User(int userId, String username, String email, String password, 
